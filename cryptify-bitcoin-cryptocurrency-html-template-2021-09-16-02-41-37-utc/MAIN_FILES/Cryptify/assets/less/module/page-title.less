@@ -1,0 +1,67 @@
+/*------------------------------------*\
+    #PAGE-TTILE
+\*------------------------------------*/
+.page-title {
+  padding: 0;
+	max-height: 600px;
+}
+.page-title .title {
+  padding:235px 0 149px 0;
+}
+.page-title .title--heading {
+  margin-bottom: 20px;
+}
+.page-title .title--heading h1 {
+  color: @color-white;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0;
+	text-transform: capitalize;
+	letter-spacing: -0.95px;
+	font-style: normal;
+}
+
+.page-title  .title--desc p {
+  color: #f9f9f9;
+  font-size: 17px;
+  margin-bottom: 0;
+    font-weight: 400;
+}
+
+.page-title .breadcrumb,
+.page-title .breadcrumb a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+    background: transparent;
+    color: @color-white
+}
+.page-title .breadcrumb .active {
+  color: @color-white;
+}
+.page-title .breadcrumb a:hover {
+  color: @color-theme;
+}
+.page-title .breadcrumb>li+li:before{
+    color: @color-white;
+}
+
+/* Title #1 */
+.page-title .title-1{
+    padding-bottom: 110px;
+}
+.title-1 .breadcrumb{
+	position: absolute;
+	bottom: 30px;
+	right: 0;
+	left: 0;
+}
+
+@media only screen and (max-width : 991px) {
+
+.page-title .title--heading h1{
+    font-size:40px
+}
+
+}

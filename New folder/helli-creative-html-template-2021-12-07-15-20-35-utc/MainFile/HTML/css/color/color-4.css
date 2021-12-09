@@ -1,0 +1,137 @@
+a {
+  color: #A00FE8;
+}
+a:focus,
+a:hover{
+	color:#A00FE8;
+	text-decoration:underline;
+}
+.f-red {
+  color: #A00FE8;
+}
+.bg-title {
+    background-color: #A00FE8;
+}
+.background-menu:after {
+    background: #A00FE8;
+}
+.navbar-helli .navbar-nav > li > a:hover,
+.navbar-helli .navbar-nav > li > a:focus,
+.navbar-helli .navbar-nav > li > a:active {
+	color:#A00FE8;
+	background-color:transparent;
+	border-bottom:6px solid #A00FE8;
+}
+.navbar-helli .navbar-nav > li.active a{
+	color:#A00FE8;
+	background-color:transparent;
+	border-bottom:6px solid #A00FE8;
+}
+.navbar-toggle .icon-bar {
+  background-color: #A00FE8;
+}
+.banner .btop .fa {
+	background: #A00FE8;
+}
+.flex-control-paging li a.flex-active {
+	background: #A00FE8;
+}
+.miring:after {
+	background: #A00FE8;
+}
+.about-item .icon {
+    background-color: #A00FE8;
+}
+.page-title .bg-title {
+    background-color: #A00FE8;
+}
+.service-item .icon {
+    background-color: #A00FE8;
+}
+.circular-bar .circular-bar-content strong {
+    color: #A00FE8;
+}
+.w-item a .project-info .project-icon {
+    color: #A00FE8;
+}
+.w-title h3 {
+	color: #A00FE8;
+}
+.team-item a .fa {
+	background: #A00FE8;
+}
+.team-item .item-body h3 {
+	color: #A00FE8;
+}
+.stat-item .stat-title {
+  color: #A00FE8;
+}
+.testimony .item-testimony .quote-box {
+	border-bottom: 4px solid #A00FE8;
+}
+.testimony .item-testimony .people .title {
+	color: #A00FE8;
+}
+.customNavigation .btn-caro {
+	background: #A00FE8;
+}
+.panel-pricing .price {
+	color: #A00FE8;
+}
+.btn-pricing:hover {
+    background-color: #A00FE8;
+    border-color: #A00FE8;
+}
+.vid .icon .fa {
+	color: #A00FE8;
+}
+.blog-item .gambar .date {
+	background-color: #A00FE8;
+}
+.blog-item .item-body a.readmore {
+	background-color: #A00FE8;
+}
+.blog-item .item-body .lead a:hover{
+	color:#A00FE8;
+}
+.blog-single .date {
+	background: #A00FE8;
+}
+.blog-related-item .gambar .date {
+	background: #A00FE8;
+}
+.blog-single .post-author {
+	background: #A00FE8;
+}
+.blog-single .media-heading-title {
+	border-bottom: 2px solid #A00FE8;
+	color: #A00FE8;
+}
+#cd-zoom-in, #cd-zoom-out {
+	background-color: #A00FE8;
+}
+.btn-helli {
+	background-color: #A00FE8;
+	border-color: #A00FE8;
+}
+.btn-helli:hover {
+	color: #fff;
+	background-color: #A00FE8;
+	border-color: #A00FE8;
+	opacity: .8;
+}
+.connect .item {
+	background: #A00FE8;
+}
+.connect .btop .fa {
+	background: #A00FE8;
+}
+
+
+
+
+
+
+
+
+

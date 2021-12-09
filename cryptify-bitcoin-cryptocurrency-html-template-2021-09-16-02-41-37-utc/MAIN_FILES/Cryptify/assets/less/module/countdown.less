@@ -1,0 +1,151 @@
+/*------------------------------------*\
+    #Countdown
+\*------------------------------------*/
+
+.counter-clock-container h5 {
+    font-family: @font-body;
+    color: @color-white;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.counter-clock-panel {
+    background-color: @color-theme;
+    border-radius: 2px;
+      margin-bottom: 18px;
+}
+
+.counter-clock-panel-inner {
+    padding: 30px 0;
+}
+
+.counter-clock-panel h4 {
+    color: #fff;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 28px;
+}
+
+.counter-clock-panel h4 i {
+    margin-right: 9px;
+    font-size: 20px;
+}
+
+.counter-clock-panel .btn {
+    width: 310px;
+    margin: 36px auto 0;
+    display: block;
+}
+
+.counter-clock-panel .progress--wrap {
+    padding: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    text-align: left;
+
+}
+
+.counter-clock-panel .skills .progress {
+    height: 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 4px;
+    width: 100%;
+    margin-bottom: 8px;
+    border: 2px solid #333333;
+}
+
+.counter-clock-panel .skills .progress-bar {
+    background-color: #2e2d2d;
+    border-radius: 8px;
+    height: 8px;
+}
+
+
+.counter-clock-panel .skills .progress-title .title,
+.counter-clock-panel .skills .progress-title .value,
+.counter-clock-panel .skills .progress-title .desc {
+    color: @color-white;
+    font-family: @font-body;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.counter-clock-panel .skills .progress-title .title span {
+    color: #282828;
+}
+
+.counter-clock-panel .skills .progress-title .desc {
+    float: right;
+}
+
+.counter-clock-panel .skills .progress-title .value {
+    font-size: 13px;
+}
+
+
+.flip-clock-divider .flip-clock-label{
+    font-family: @font-body !important;
+    top:auto;
+    bottom: -26px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@media only screen and (min-width : 992px) {
+.flip-clock-wrapper{
+    padding-left:60px;
+}
+
+}
+
+@media only screen and (max-width : 476px) {
+    .flip-clock-wrapper{
+        margin:0;
+    }
+    .flip-clock-divider .flip-clock-label{
+        bottom:-40px;
+    }
+    .flip-clock-wrapper ul{
+        margin:30px 5px;
+        width:50px;
+    }
+    .flip-clock-divider{
+        margin-top:20px;
+    }
+}
+
+    @media only screen and (min-width : 477px) and (max-width : 768px) {
+        .flip-clock-wrapper{
+            margin:0;
+        }
+        .flip-clock-divider .flip-clock-label{
+            bottom:-40px;
+        }
+        .flip-clock-wrapper ul{
+            margin:30px 5px;
+            width:40px;
+        }
+        .flip-clock-divider{
+            margin-top:20px;
+        }
+        .flip-clock-divider .flip-clock-label{
+            left:37px;
+            right:auto;
+        }
+    }
+
+    @media only screen and (min-width : 992px) and (max-width : 1200px) {
+        .flip-clock-wrapper {
+            padding-left: 0;
+        }
+        .flip-clock-wrapper ul{
+            width:50px;
+        }
+    }

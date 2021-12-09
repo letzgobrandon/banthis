@@ -1,0 +1,67 @@
+/*------------------------------------*\
+    #LOADING-SECTION
+\*------------------------------------*/
+.preloader {
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    position:fixed;
+    z-index:99999;
+    background-color:@color-white;
+	overflow:hidden;
+}
+
+.loader-eclipse {
+  position: relative;
+  width:100%;
+    height:100%;
+  -webkit-transform: translate(-50px, -50px) scale(1) translate(50px, 50px);
+  transform: translate(-50px, -50px) scale(1) translate(50px, 50px);
+}
+
+.loader-eclipse .loader-content {
+  position: absolute;
+  -webkit-animation: loader-eclipse 1s linear infinite;
+  animation: loader-eclipse 1s linear infinite;
+  width: 80px;
+  height: 80px;
+  top: 50%;
+  left: 50%;
+  margin-top:-40px;
+  margin-left: -40px;
+  border-radius: 50%;
+  box-shadow: 0 4px 0 0 @color-theme;
+  -webkit-transform-origin: 40px 42px;
+  transform-origin: 40px 42px;
+}
+
+
+@keyframes loader-eclipse {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes loader-eclipse {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
